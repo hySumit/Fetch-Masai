@@ -1,0 +1,63 @@
+*{
+    margin: 0;padding: 0;
+    font-family: 'poppins',sans-serif;
+}
+#fetchUser{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border: none;
+    padding: 20px;
+    margin-top: 3vh;
+    font-size: 18px;
+    border-radius: 10px;
+    background-color: #69607d;
+    color: white;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+
+}
+body{
+    background-color: rgb(46, 46, 46);
+    margin: 10px;
+    text-align: center;
+    /* padding: 20px; */
+   
+}
+#container{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.card{
+    background-color: #BB9CC0;
+    border-radius: 10px;
+    padding: 30px;
+    width: 200px;
+    margin: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.userimage{
+    border-radius: 50%;
+    max-width: 60%;
+    height: auto;
+    margin-bottom: 10px;
+
+}
+.className{
+    font-size: 18px;
+    background-color: #69607d;
+    border-radius: 30px;
+    width: 100px;
+    margin: auto;
+    color: white;
+}
+.userEmail{
+    font-size: 17px;
+    background-color: #67729D;
+    border-radius: 30px;
+    margin-top: 5px;
+    color: white;
+}
