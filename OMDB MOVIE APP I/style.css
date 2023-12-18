@@ -1,0 +1,68 @@
+*{
+    margin: 0;padding: 0;
+    text-align: center;
+    /* font-size: 'poppins'; */
+    font-family: 'poppins',sans-serif;
+}
+body{
+    background-color: #808080;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    height: 420px;
+    /* height: auto; */
+    margin: 10px;
+    width: 210px;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-color: #FFA559;
+  }
+  h1{
+    margin-bottom: 20px;
+  }
+  .poster{
+    width: 200px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    border-radius: 10px;
+  }
+
+  #container{
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .title{
+    margin-top: 25px;
+  }
+  .title,.rel,.id,.genre{
+    
+    background-color: rgb(228, 203, 94);
+    border-radius: 5px;
+    
+  }
+
+  #searchParam{
+    font-size: 17px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    color: black;
+    background-color: rgb(255, 253, 253);
+  }
+  button{
+    border: none;
+    /* width: 30px; */
+    padding: 10px;
+    border-radius: 30px;
+  }
