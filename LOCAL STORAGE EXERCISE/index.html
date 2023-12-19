@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;padding: 0;
+            text-align: center;
+            font-size: 19px;
+        }
+        .ans {
+            margin-top: 20px;
+            padding: 10px;
+        }
+        .username{
+            margin-top: 20px;
+            /* border-radius: 20px; */
+        }
+        .submit{
+            margin-top: 20px;
+        }
+        
+    </style>
+</head>
+<body>
+    <!-- <div class="main"> -->
+        <form id ="form">
+            <label class="username">Enter Username</label><br>
+            <input required type="text" id="username"><br>
+            <label class="age">Age</label><br>
+            <input required type="text" id="age"><br>
+            <input type="submit" class="submit">
+        </form>
+    <!-- </div> -->
+        <div class="ans">
+            <button onclick="details()">Get details</button>
+        </div>
+    
+</body>
+</html>
+<script src="script.js"></script>
